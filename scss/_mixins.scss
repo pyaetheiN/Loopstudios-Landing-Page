@@ -1,0 +1,13 @@
+@import "_functions.scss";
+
+@mixin sectionWrapper{
+  max-width: rem(1080);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@mixin lg-min{
+  @media screen and (min-width: $screen-lg-min){
+    @content;
+  }
+}
