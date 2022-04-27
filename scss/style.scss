@@ -387,6 +387,7 @@ body{
   }
   &__link{
     color: $white;
+    font-weight: 600;
     position: relative;
 
     &::after{
@@ -441,8 +442,8 @@ body{
     }
   }
   &__copyright{
-    color: $dark-gray;
-    font-weight: 600;
+    color: $white;
+    font-weight: 500;
 
     @include lg-min{
       order: 4;

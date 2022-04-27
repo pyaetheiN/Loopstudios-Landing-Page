@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/mobile-design.png)
+![](screenshots/desktop-design.png)
 
 ### Links
 
@@ -50,9 +50,16 @@ Users should be able to:
 - removing nav menu upon clicking nav links 
 - making desktop hero background image responsive using `min-height: auto` on parent element and `padding: 7rem 0` on child element
 
-To see how you can add code snippets, see below:
-
 ```html
+<!-- hero bg -->
+<section class="hero" id="hero">
+  <div class="hero__content">
+    <h1 class="hero__title title">
+      Immersive experiences that deliver
+    </h1>
+  </div>
+</div>
+<!-- grid images -->
 <div class="events__tab--overlay">
     <img src="images/mobile/image-deep-earth.jpg" alt="image-deep-earth" class="events__tab--img">
 </div>

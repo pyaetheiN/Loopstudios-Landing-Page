@@ -515,6 +515,7 @@ body {
 
 .footer__link {
   color: white;
+  font-weight: 600;
   position: relative;
 }
 
@@ -588,8 +589,8 @@ body {
 }
 
 .footer__copyright {
-  color: #8c8c8c;
-  font-weight: 600;
+  color: white;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 968px) {
