@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/desktop-design.png)
+![](screenshots/mobile-design.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://pyaethein.github.io/Loopstudios-Landing-Page/
 
 ## My process
 
@@ -48,6 +48,7 @@ Users should be able to:
 
 - using `mix-blend-mode: multiplay;` on child element to apply overlaying `linear-gradient` from parent element and `display: block;` to take up entire space in order for `linear-gradient` to work
 - removing nav menu upon clicking nav links 
+- making desktop hero background image responsive using `min-height: auto` on parent element and `padding: 7rem 0` on child element
 
 To see how you can add code snippets, see below:
 
@@ -65,6 +66,13 @@ To see how you can add code snippets, see below:
   mix-blend-mode: multiply;
   display: block;
 }
+/* making desktop hero bg responsive */
+.hero{
+  min-height: auto;
+}
+.hero__content{
+  padding: 7rem 0;
+}
 ```
 ```js
 // removing menu upon clicking links
@@ -78,7 +86,7 @@ navLinks.forEach(n => n.addEventListener('click', () => {
 
 ### Continued development
 
-I still need more practise on css `linear-gradient` property.
+Looking forward for harder challenges focusing more on `linear-gradient` and responsive images.
 
 ## Author
 
