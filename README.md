@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-loopstudios-landing-page-using-flexbox-grid-HkPA3nLB5
 - Live Site URL: https://pyaethein.github.io/Loopstudios-Landing-Page/
 
 ## My process

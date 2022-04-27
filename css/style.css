@@ -441,10 +441,11 @@ body {
 
 @media screen and (min-width: 968px) {
   .events__tab--header {
-    bottom: 3%;
-    left: 10%;
-    -webkit-transform: translate(-10%, -3%);
-            transform: translate(-10%, -3%);
+    bottom: 5%;
+    left: 25%;
+    -webkit-transform: translate(-25%, -5%);
+            transform: translate(-25%, -5%);
+    font-size: 2em;
   }
 }
 
